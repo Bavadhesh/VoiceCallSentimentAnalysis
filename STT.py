@@ -1,7 +1,7 @@
 import speech_recognition as sr
 from textblob import TextBlob
 from pydub import AudioSegment
-filename = "SentTest.wav";
+filename = "SentTest.wav"
 r = sr.Recognizer()
 with sr.AudioFile(filename) as source:
     # listen for the data (load audio to memory)
